@@ -723,6 +723,10 @@ button {
   border: none;
 }
 
+.modal-close:focus .icon-close {
+  fill: #ffffff;
+}
+
 .icon-close {
   fill: #fff;
   stroke: #2e2f42;
@@ -832,7 +836,7 @@ button {
 }
 
 .modal-field {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 
 .modal-submit {
@@ -895,7 +899,6 @@ button {
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
   fill: transparent;
-  display: flex;
   align-items: center;
   justify-content: center;
   transition:
