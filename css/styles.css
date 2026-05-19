@@ -898,15 +898,20 @@ button {
   color: #4d5ae5;
 }
 
-.decorated-check {
+.check-text span {
   display: inline-flex;
+}
+
+.decorated-check {
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
   fill: transparent;
+  display: inline-flex;
   align-items: center;
+
   justify-content: center;
   transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
