@@ -112,13 +112,16 @@ button {
 
 .nav-item {
   transition-property: background-color;
-  position: relative;
   height: 52px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-item:hover::after {
+.nav-item-link {
+  position: relative;
+}
+
+.nav-item_link:cover::after {
   position: absolute;
   content: "";
   bottom: -1px;
