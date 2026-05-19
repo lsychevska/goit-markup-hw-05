@@ -873,6 +873,7 @@ button {
 }
 
 .modal-check {
+  display: inline-flex;
   border-radius: 2px;
   border: 1px solid var(--navy-blue-modal);
 }
