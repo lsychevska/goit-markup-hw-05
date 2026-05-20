@@ -873,6 +873,7 @@ button {
 
 .modal-privacy-field {
   margin-bottom: 24px;
+  display: inline-flex;
 }
 
 .modal-check {
@@ -906,7 +907,6 @@ button {
 }
 
 .decorated-check {
-  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
