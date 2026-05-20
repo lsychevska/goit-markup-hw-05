@@ -883,6 +883,7 @@ button {
 }
 
 .check-text {
+  display: inline-flex;
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #8e8f99;
@@ -907,6 +908,7 @@ button {
 }
 
 .decorated-check {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -921,6 +923,10 @@ button {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-check-icon {
+  display: inline-flex;
 }
 
 .modal-check:checked + .check-text .decorated-check {
